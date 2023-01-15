@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <title>{{currentFeed.name}}</title>
+    <link rel="stylesheet" href="www-core.css">
+    <link rel="stylesheet" href="www-guide.css">
+</head>
+
+<body class="en_US ltr exp-watch-actions-refresh ytg-old-clearfix" dir="ltr">
+    <div id="page" class="">
+        <div id="masthead-container">
+            <div id="masthead" class="" dir="ltr"></div>
+        </div>
+        <div id="content-container">
+            <div id="content">
+                <div id="masthead_child_div"></div>
+                <div class="guide-layout-container enable-fancy-subscribe-button">
+                    <div class="guide-container">
+                        <div class="guide">
+
+                            <div class="guide-section yt-uix-expander first">
+                                <ul>
+                                    {{# feeds }}
+                                    <li class="guide-item-container ">
+                                        <a class="guide-item {{#selected}}selected{{/selected}}" href="/{{slug}}">
+                                            <span class="thumb">
+                                                <span class="system-icon category"></span>
+                                            </span>
+                                            <span class="display-name">{{name}}</span>
+                                        </a>
+                                    </li>
+                                    {{/ feeds }}
+                                </ul>
+                                <!--
+                                    <div class="guide-item-container">
+                                        <span class="guide-item guide-item-action guide-item-fake">
+                                            <span>see all<img class="see-more-arrow"></span>
+                                        </span>
+                                    </div>
+                                -->
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="guide-background"></div>
+
+                    <div id="video-sidebar">
+                        <h2>Channels in this Feed</h2>
+                        <ul class="sidebar-module-description sidebar-module-content">
+                            {{# currentFeed.channels }}
+                            <li><a href="{{url}}">{{handle}}</a></li>
+                            {{/ currentFeed.channels }}
+                        </ul>
+                    </div>
+
+                    <div id="feed">
+                        <div id="feed-system-youtube" class="individual-feed " data-loaded="true" data-feed-name="youtube" data-feed-type="system">
+                            <div class="feed-header no-metadata">
+                                <div class="feed-header-thumb">
+                                    <div class="feed-header-icon youtube"></div>
+                                </div>
+                                <div class="feed-header-details">
+                                    <h2>{{currentFeed.name}}</h2>
+                                </div>
+                            </div>
+
+
+
+                            <div class="feed-container">
+
+                                <div class="feed-page">
+                                    <ul>
+                                        {{# videos}}
+                                        <li>
+                                            <div class="feed-item-container yt-uix-expander yt-uix-expander-collapsed">
+                                                <div class="feed-item-outer">
+                                                    <div class="feed-item-main">
+                                                        <div class="feed-item-thumb">
+                                                            <a class="ux-thumb-wrap" href="{{url}}">
+                                                                <span class="video-thumb ux-thumb yt-thumb-default-106 ">
+                                                                    <span class="yt-thumb-clip">
+                                                                        <span class="yt-thumb-clip-inner">
+                                                                            <img src="{{thumbnailUrl}}" alt="Thumbnail" width="106">
+                                                                            <span class="vertical-align"></span>
+                                                                        </span>
+                                                                    </span>
+                                                                </span>
+                                                            </a>
+                                                        </div>
+                                                        <div class="feed-item-time">{{ago}}</div>
+                                                        <div class="feed-item-content">
+                                                            <h4>
+                                                                <a class="title" dir="ltr" href="{{url}}">{{title}}</a>
+                                                            </h4>
+                                                            <div class="metadata">
+                                                                <p>
+                                                                    <a class="yt-user-name" dir="ltr" href="{{channel.uri}}">{{channel.name}}</a>
+                                                                    <span class="bull">&bull;</span>
+                                                                    <span class="view-count">{{views}} views</span>
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        {{/videos}}
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="feed-background"></div>
+                </div>
+            </div>
+        </div>
+        <div id="footer-container">
+            <div id="footer">
+                <div class="yt-horizontal-rule "><span class="first"></span><span class="second"></span><span class="third"></span></div>
+                <div id="footer-main">
+                    <ul id="footer-links-primary">
+                        <li><a href="https://github.com/Craftplacer/yt-feeds">GitHub</a></li>
+                    </ul>
+                    <ul id="footer-links-secondary">
+                        <li>Not affiliated with YouTube</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

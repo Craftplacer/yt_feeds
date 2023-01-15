@@ -1,0 +1,143 @@
+[
+    {
+        "name": "Source Games",
+        "slug": "source-games",
+        "channels": [
+            "@ratlobber:UCaRxv7rOKkhHQ8CuGH3k2Qw",
+            "@RichterOvertime:UC9mkzd_A2JEfLtITD6HF-Sg",
+            "@RadiationHazardYT:UCCSw9kAB52bj6ZfmoqpqvXg",
+            "@OssyFlawol:UCukBYL-zLneOKJ8OTbhVEIQ",
+            "@Dacoobers:UCHJMAFd09oUYAZK11lI5Hmw"
+        ]
+    },
+    {
+        "name": "Hacking",
+        "channels": [
+            "@LiveOverflow:UClcE-kVhqyiHCcjYwcpfj9w",
+            "@stacksmashing:UC3S8vxwRfqLBdIhgRlDRVzw"
+        ]
+    },
+    {
+        "name": "Source Engine",
+        "channels": [
+            "@shounic:UCHlTEt24Yb4ylJFuWz7hXIw",
+            "@Pinsplash:UCLuJuI0M95qWsVw_KQOkTgQ",
+            "@Admer456:UCS3knPfFtsrVAy7Av2v1hQA"
+        ]
+    },
+    {
+        "name": "Conferences",
+        "channels": [
+            "@DEFCONConference:UC6Om9kAkl32dWlDSNlDS9Iw",
+            "@BlackHatOfficial:UCJ6q9Ie29ajGqKApbLqfBOg",
+            "@mediacccde:UC2TXq_t06Hjdr2g_KdKpHQg"
+        ]
+    },
+    {
+        "name": "Networking & Servers",
+        "slug": "networking-servers",
+        "channels": [
+            "@ServeTheHomeVideo:UCv6J_jJa8GJqFwQNgNrMuww",
+            "@LAWRENCESYSTEMS:UCHkYOD-3fZbuGhwsADBd9ZQ"
+        ]
+    },
+    {
+        "name": "Tech Adventures",
+        "slug": "tech-adventures",
+        "channels": [
+            "@WindowsG:UC8EYr_ArKMKaxfgRq-iCKzA",
+            "@NCommander:UCWyrVfwRL-2DOkzsqrbjo5Q",
+            "@Druaga1:UC-7I1gU1r6PxBSl87o-7YEQ",
+            "@TechTangents:UCerEIdrEW-IqwvlH8lTQUJQ"
+        ]
+    },
+    {
+        "name": "Vintage Computers",
+        "slug": "vintage-computers",
+        "channels": [
+            "@LGR:UCLx053rWZxCiYWsBETgdKrQ",
+            "@UsagiElectric:UCE4xstUnu0YmkG-W9_PyYrQ",
+            "@RetroSpector78:UCAfYntJkyJdnYbzDsOGu0qQ",
+            "@adriansdigitalbasement:UCE5dIscvDxrb7CD5uiJJOiw",
+            "@moshix:UCR1ajTWGiUtiAv8X-hpBY7w",
+            "@Mac84:UCW-HHEyt67RhZ6q21n4p2zQ",
+            "@ActionRetro:UCoL8olX-259lS1N6QPyP4IQ",
+            "@The8BitGuy:UC8uT9cgJorJPWu7ITLGo9Ww"
+        ]
+    },
+    {
+        "name": "Programming",
+        "channels": [
+            "@AsahiLina:UCwkfNQzKwICfPKs6V0ZUFZQ",
+            "@Bisqwit:UCKTehwyGCKF-b2wo0RKwrcg",
+            "@awesomekling:UC3ts8coMP645hZw9JSD3pqQ"
+        ]
+    },
+    {
+        "name": "Eletrical Engineering",
+        "channels": [
+            "@bigclivedotcom:UCtM5z2gkrGRuWd0JQMx76qA",
+            "@ElectroBOOM:UCJ0-OtVpF0wOKEqT2Z1HEtA",
+            "@BenEater:UCS0N5baNlQWJCUrhCEo8WlA"
+        ]
+    },
+    {
+        "name": "Technology",
+        "channels": [
+            "@NODEtv:UCvrLvII5oxSWEMEkszrxXEA"
+        ]
+    },
+    {
+        "name": "Retro Game Mechanics",
+        "channels": [
+            "@Crystal_2:UCQcizw_rc-q55lmwU3w6-wA",
+            "@RGMechEx:UCwRqWnW5ZkVaP_lZF7caZ-g",
+            "@pannenkoek2012:UCMm211NGh4Ls5SAMZJF7E8A",
+            "@TheZZAZZGlitch:UCKlA7qF9XKwu79ULYmVu28w"
+        ]
+    },
+    {
+        "name": "STEM",
+        "channels": [
+            "@3blue1brown:UCYO_jab_esuFRV4b17AJtAw"
+        ]
+    },
+    {
+        "name": "PC Hardware",
+        "slug": "pc-hardware",
+        "channels": [
+            "@GamersNexus:UChIs72whgZI9w6d6FhwGGHA",
+            "@LinusTechTips:UCXuqSBlHAE6Xw-yeJA0Tunw"
+        ]
+    },
+    {
+        "name": "Speedrunning",
+        "channels": [
+            "@SummoningSalt:UCtUbO6rBht0daVIOGML3c8w",
+            "@ApolloLegend:UC5t8u4kpE0WvLxkPWIp8n-g"
+        ]
+    },
+    {
+        "name": "Gaming Trivia",
+        "channels": [
+            "@DYKGaming:UCyS4xQE6DK4_p3qXQwJQAyA",
+            "@Beta64:UCtByt51SvEuImGDC2bAiC6g",
+            "@GamingHistorian:UCnbvPS_rXp4PC21PG2k1UVg"
+        ]
+    },
+    {
+        "name": "Malware",
+        "channels": [
+            "@Leurak:UCnye-JRGe8gWjaslsvrh63g",
+            "@danooct1:UCqbkm47qBxDj-P3lI9voIAw"
+        ]
+    },
+    {
+        "name": "Minecraft Mechanics",
+        "channels": [
+            "@Panda4994:UCzVkOGiIFUY47sWqMy7A4tA",
+            "@tryashtar:UCnVtYLvaY1r5vNIPo4hSI6Q",
+            "@gnembon:UCRtyLX-ej-H1PSiaw8g9aIA"
+        ]
+    }
+]
