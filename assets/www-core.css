@@ -15028,3 +15028,15 @@ body[data-player-size=fullscreen] #playlist-bar {
 .ytg-last {
     margin-right: 0px
 }
+
+.guide-item-unread-badge {
+    display: inline-block;
+    line-height: 1.2em;
+    vertical-align: middle;
+    background: url("/new_releases.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 18px;
+    height: 18px;
+}

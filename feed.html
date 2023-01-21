@@ -3,8 +3,10 @@
 
 <head>
     <title>{{currentFeed.name}}</title>
-    <link rel="stylesheet" href="www-core.css">
-    <link rel="stylesheet" href="www-guide.css">
+    <link rel="stylesheet" href="/www-core.css">
+    <link rel="stylesheet" href="/www-guide.css">
+    <script src="/new-videos.js"></script>
+    <script id="feed-state-json" type="application/json">{{&feedStateJson}}</script>
 </head>
 
 <body class="en_US ltr exp-watch-actions-refresh ytg-old-clearfix" dir="ltr">
@@ -22,8 +24,8 @@
                             <div class="guide-section yt-uix-expander first">
                                 <ul>
                                     {{# feeds }}
-                                    <li class="guide-item-container ">
-                                        <a class="guide-item {{#selected}}selected{{/selected}}" href="/{{slug}}">
+                                    <li class="guide-item-container">
+                                        <a class="guide-item {{#selected}}selected{{/selected}}" data-slug="{{slug}}" href="{{href}}">
                                             <span class="thumb">
                                                 <span class="system-icon category"></span>
                                             </span>
@@ -47,6 +49,14 @@
                     <div class="guide-background"></div>
 
                     <div id="video-sidebar">
+                        <ul class="sidebar-module-description sidebar-module-content pickers yt-uix-button-group" data-button-toggle-group="optional">
+                            <li>
+                                <label for="language">Language:</label>
+                                <select name="language" id="language" class="yt-uix-button yt-uix-button-text">
+                                    <option value="en"><a href="#test">English</a></option>
+                                </select>
+                            </li>
+                        </ul>
                         <h2>Channels in this Feed</h2>
                         <ul class="sidebar-module-description sidebar-module-content">
                             {{# currentFeed.channels }}
@@ -66,12 +76,15 @@
                                 </div>
                             </div>
 
-
-
                             <div class="feed-container">
-
                                 <div class="feed-page">
                                     <ul>
+                                        {{# videoFeed}}
+                                        <li>
+                                            <div class="feed-item-container yt-uix-expander yt-uix-expander-collapsed feed-header-item">
+                                                {{header}}
+                                            </div>
+                                        </li>
                                         {{# videos}}
                                         <li>
                                             <div class="feed-item-container yt-uix-expander yt-uix-expander-collapsed">
@@ -107,6 +120,7 @@
                                             </div>
                                         </li>
                                         {{/videos}}
+                                        {{/videoFeed}}
                                     </ul>
                                 </div>
                             </div>

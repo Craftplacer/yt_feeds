@@ -9,11 +9,15 @@ part of 'feed.dart';
 Feed _$FeedFromJson(Map<String, dynamic> json) => Feed(
       json['name'] as String,
       json['slug'] as String?,
-      (json['channels'] as List<dynamic>).map((e) => e as String).toSet(),
+      (json['channels'] as List<dynamic>)
+          .map((e) => const FeedChannelJsonConverter().fromJson(e as String))
+          .toSet(),
     );
 
 Map<String, dynamic> _$FeedToJson(Feed instance) => <String, dynamic>{
       'name': instance.name,
       'slug': instance.slug,
-      'channels': instance.channels.toList(),
+      'channels': instance.channels
+          .map(const FeedChannelJsonConverter().toJson)
+          .toList(),
     };

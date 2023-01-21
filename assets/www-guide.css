@@ -2036,3 +2036,9 @@ body>.yt-uix-button-menu-view-choices .yt-uix-button-menu-item.checked:hover {
     padding: 20px;
     font-size: 20px
 }
+
+.feed-header-item {
+    padding: 15px;
+    background: linear-gradient(#fff, #e0e0e0);
+    font-weight: bold;
+}
